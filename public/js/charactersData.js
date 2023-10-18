@@ -4,3 +4,4 @@ export const joffreyCharacterData = {
   age: 16,
   imageSource: "joffrey.jpg",
 };
+//# sourceMappingURL=charactersData.js.map
