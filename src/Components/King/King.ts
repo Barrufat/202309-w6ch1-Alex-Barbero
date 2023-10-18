@@ -1,5 +1,5 @@
-import { Character } from "../Character/Character";
-import type CharacterDataType from "../types";
+import { Character } from "../Character/Character.js";
+import type CharacterDataType from "../../types";
 
 export class King extends Character {
   yearsOfReign: number;
