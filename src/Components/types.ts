@@ -1,7 +1,7 @@
 interface CharacterDataType {
   name: string;
   family: string;
-  age: string;
+  age: number;
   imageSource: string;
 }
 
