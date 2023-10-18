@@ -1,10 +1,10 @@
-import type CharacterDataType from "../types";
+import type CharacterDataType from "../../types";
 
 export class Character {
   isAlive = true;
   series = "Game of Thrones";
 
-  constructor(private readonly characterData: CharacterDataType) {
+  constructor(public characterData: CharacterDataType) {
     this.characterData = characterData;
   }
 
