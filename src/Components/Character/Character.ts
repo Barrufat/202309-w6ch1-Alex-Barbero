@@ -1,7 +1,7 @@
 import type CharacterDataType from "../../types";
 
 export class Character {
-  isAlive = true;
+  public isAlive = true;
   series = "Game of Thrones";
 
   constructor(public characterData: CharacterDataType) {

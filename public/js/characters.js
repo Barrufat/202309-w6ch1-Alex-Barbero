@@ -38,4 +38,5 @@ const daenerys = new Fighter(daenerysCharacterData, "Dragons", 10);
 const tyrion = new Advisor(tyrionCharacterData, daenerys);
 const bronn = new Squire(bronnCharacterData, 0, jaime);
 export const characters = [jaime, joffrey, daenerys, tyrion, bronn];
-//# sourceMappingURL=characters.js.map
+
+// # sourceMappingURL=characters.js.map

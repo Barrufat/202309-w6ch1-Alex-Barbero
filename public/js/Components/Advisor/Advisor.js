@@ -7,9 +7,11 @@ export class Advisor extends Character {
       this.advises = advises;
     }
   }
+
   communicate() {
     return `${super.communicate()}I have a funny feeling that I'm going to die`;
   }
 }
 export default Advisor;
-//# sourceMappingURL=Advisor.js.map
+
+// # sourceMappingURL=Advisor.js.map

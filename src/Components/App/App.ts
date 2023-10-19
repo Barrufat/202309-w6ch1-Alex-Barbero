@@ -13,27 +13,11 @@ class App extends Component {
     characters.forEach((character) => {
       const card = new CharacterCard(
         parentElement,
-        "li",
-        "col",
         character.characterData,
+        character.isAlive,
       );
       card.render();
     });
-
-    // Console.log(characters[0].characterData);
-
-    // console.log(characters[0].characterData);
-
-    // const card = new CharacterCard(
-    //   parentElement,
-    //   "li",
-    //   "col",
-    //   characters[0].characterData,
-    // );
-
-    // card.render();
-
-    // console.log(card);
   }
 }
 
