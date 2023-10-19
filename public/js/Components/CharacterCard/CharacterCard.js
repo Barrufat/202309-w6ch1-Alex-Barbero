@@ -7,6 +7,7 @@ class CharacterCard extends Component {
     this.characterData = characterData;
     this.state = state;
   }
+
   populate() {
     console.log(this.state);
     this.element.innerHTML = `
@@ -40,4 +41,5 @@ class CharacterCard extends Component {
   }
 }
 export default CharacterCard;
-//# sourceMappingURL=CharacterCard.js.map
+
+// # sourceMappingURL=CharacterCard.js.map

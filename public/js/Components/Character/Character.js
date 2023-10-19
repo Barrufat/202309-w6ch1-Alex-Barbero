@@ -6,12 +6,15 @@ export class Character {
     this.characterData = characterData;
     this.characterData = characterData;
   }
+
   communicate() {
     return `${this.characterData.name} says: `;
   }
+
   die() {
     this.isAlive = false;
   }
 }
 export default Character;
-//# sourceMappingURL=Character.js.map
+
+// # sourceMappingURL=Character.js.map

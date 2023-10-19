@@ -6,10 +6,12 @@ class Component {
     this.element.className = className;
     this.parentElement = parentElement;
   }
+
   render() {
     this.parentElement.appendChild(this.element);
     this.populate();
   }
 }
 export default Component;
-//# sourceMappingURL=Component.js.map
+
+// # sourceMappingURL=Component.js.map

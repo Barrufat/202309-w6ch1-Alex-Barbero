@@ -19,4 +19,5 @@ class App extends Component {
   }
 }
 export default App;
-//# sourceMappingURL=App.js.map
+
+// # sourceMappingURL=App.js.map
